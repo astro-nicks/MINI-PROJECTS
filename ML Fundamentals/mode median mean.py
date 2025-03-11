@@ -1,4 +1,4 @@
-import numpy
+import math
 data = [12, 18, 14, 20, 16]
 mean = sum(data) / len(data)
 print(f"Mean: {mean}")
