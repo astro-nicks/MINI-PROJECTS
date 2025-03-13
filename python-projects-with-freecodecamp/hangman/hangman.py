@@ -1,4 +1,9 @@
 import random
-from words import words
+from word import words 
 
-print(words)
+def get_valid_word(words):
+    word = random.choice(words)  #randomly chooses something from the list
+    while '-' in word '' in word:
+        word = random.choice(words)
+
+    return word.upper()
