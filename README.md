@@ -1,2 +1,3 @@
 # MINI-PROJECTS
-A collection of mini projects 
+A collection of mini projects in python. 
+

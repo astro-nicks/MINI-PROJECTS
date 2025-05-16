@@ -11,7 +11,7 @@ while True:
         
     else: 
         print('Invalid choice')
-        return
+        break
 
 # Ask: roll the dice
 # If user generates y
